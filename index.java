@@ -141,8 +141,7 @@ class TripAdvisor{
                     System.out.println("* phone:01707180152  ");
                     System.out.println("\n");
 
-//                    System.out.println("Jatra flagship sylhet City Centre  ");
-//                    System.out.println("Hotel holy gate  ");
+
                     System.out.println("-------------------------------------------------------");
                     System.out.println("\n");
                     break;
@@ -193,6 +192,8 @@ class TripAdvisor{
 
                 case 'C':
                     System.out.println("-------------------------------------------------------");
+                    System.out.println("1.In Zindabazar ");
+                    System.out.println("\n ");
                     System.out.println("Panshi resturant ");
                     System.out.println("Kutum bari ");
                     System.out.println("Pach Vhai Resturant ");
@@ -201,17 +202,109 @@ class TripAdvisor{
                     System.out.println("Nirvana Inn ");
                     System.out.println("Bhujon Bari ");
                     System.out.println("Pizza Hut ");
+                    System.out.println("Woondaal King kabab ");
+                    System.out.println("Spicy Restaurant ");
+                    System.out.println("Kebab garden ");
+                    System.out.println("Kazi Asparagus Food Island ");
+                    System.out.println("Hattrick gate");
+                    System.out.println("Food Lounge ");
+                    System.out.println("The steak Blast ");
+                    System.out.println("Coffee Cobana ");
+                    System.out.println("Chick Chicken ");
+                    System.out.println("Brick lane Restaurant ");
+                    System.out.println("Bhujon bari ");
+                    System.out.println("Food lover");
+                    System.out.println("The Magicion ");
+                    System.out.println("Tandoori house");
+                    System.out.println("The Swad");
+                    System.out.println("Grill Pill restaurant");
+                    System.out.println("White Chilli ");
+                    System.out.println("KFC ");
+                    System.out.println("Food Castle ");
+                    System.out.println("Sinbad ");
+                    System.out.println("Yummy Restaurant");
+                    System.out.println("Sip and Bite ");
+                    System.out.println("Q-Bistro");
+                    System.out.println("Titanic Restaurant ");
+
+
+
+
+
+                    System.out.println("2.In Kumarpara ");
+                    System.out.println("\n ");
+                    System.out.println("Platinum Launge");
+                    System.out.println("Pizza Express ");
+                    System.out.println("Curry Royal ");
+                    System.out.println("The coffee club");
+                    System.out.println("The Lunchon Restaurant ");
+                    System.out.println("Kebab Cottage");
+                    System.out.println("Hungry station");
+
+
+                    System.out.println("3.In Shahjalal Uposhohor ");
+                    System.out.println("\n ");
+
+                    System.out.println("Al Haramain restaurant ");
+                    System.out.println("Snakes Lane");
+                    System.out.println("Haat food Court ");
+                    System.out.println("Lemense ");
+                    System.out.println("Bay Leaf Chinese restaurant");
+
+
+                    System.out.println("4.In Tilaghor ");
+                    System.out.println("\n ");
+                    System.out.println("Chaat Buzz ");
+                    System.out.println("Hazi Biriyani House");
+                    System.out.println("Boishaki Restaurant");
+                    System.out.println("Cafe ground");
+                    System.out.println("Al Layali dinner");
                     System.out.println("-------------------------------------------------------");
 
+
+
+                    System.out.println("5.Near Sust");
+                    System.out.println("\n");
+                    System.out.println("Himur Bhojor Bilash");
+                    System.out.println("Rice and Spice ");
+                    System.out.println("Snakes lane ");
 
                     break;
 
                 case 'D':
                     System.out.println("-------------------------------------------------------");
 
+                    System.out.println("Al Amjad;s Clock,'#Located on the bank of Surma'");
+                    System.out.println("Keane Bride");
+                    System.out.println("Meuseum of Rajas ");
+                    System.out.println("Hazrat Shahjalal Mazar Sharit");
+                    System.out.println("MAG Osmani Museum");
+                    System.out.println("Wildlife Conervation ");
+                    System.out.println("Abangi Tila");
+                    System.out.println("Tanguar haor");
+                    System.out.println("Lakkatura Tea Garden ");
+                    System.out.println("Kazir Bazar bridge ");
+                    System.out.println("Tilaghor Eco Park ");
+                    System.out.println("Khadimnagar National Park ");
+                    System.out.println("Adventure World amusement");
+                    System.out.println("Sylhet Zoo");
+                    System.out.println("Bongabari Osmani Shishu Uddan ");
+                    System.out.println("Sust");
+                    System.out.println("Manipuri Rajbari ");
+                    System.out.println("Guabari Walkway");
+                    System.out.println("Shurma river");
+                    System.out.println("Tanguar haor");
+                    System.out.println("Panthumai ");
+                    System.out.println("Jalalabad Park");
+                    System.out.println("Sheik Hasina Shishu Park ");
+                    System.out.println("Tree Top Adventure Forum");
+                    System.out.println("Selfie Bridge");
+                    System.out.println("Tanguar haor");
+                    System.out.println("Panthumai ");
                     System.out.println("Lalakhan");
                     System.out.println("Tanguar haor");
                     System.out.println("Panthumai ");
+
                     System.out.println("-------------------------------------------------------");
                     System.out.println("\n");
                     break;
