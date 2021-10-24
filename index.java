@@ -1,22 +1,19 @@
-
 package Jannat;
-        import java.util.Scanner;
+import java.util.Scanner;
 
 
 public class Main {
 
     public static void main(String[] args) {
-        //Scanner sc = new Scanner(System.in);
         // write your code here
         Scanner input =new Scanner (System.in);
-        String user,confirmUser,pass,confirmPass;
+        String user,pass,confirmPass;
 
         System .out.print("Hi there!!For get help please registered first.");
 
         System .out.print("Enter your Username:");
         user=input.nextLine();
-        System .out.print("Enter your confirm Username:");
-        confirmUser=input.nextLine();
+
 
 
         System .out.print("Enter your pass:");
@@ -25,24 +22,24 @@ public class Main {
 
         System .out.print("Enter your confirm pass:");
         confirmPass=input.nextLine();
-        if(user.equals(confirmUser)&&(pass.equals(confirmPass))){
+        if((pass.equals(confirmPass))){
             System.out.println("Welcome Sir/Madam,");
         }
         else{
             System.out.println("Something wrong!");
         }
-        BankAccount obj = new BankAccount();
+        TripAdvisor obj = new TripAdvisor();
         obj.showMenu();
 
     }
 
 }
 
-class BankAccount{
-    int balance;
-    int previousTransaction;
+class TripAdvisor{
+
     String customerName;
     String customerId;
+
 
 
 
@@ -61,85 +58,34 @@ class BankAccount{
         System.out.println("D : visiting spot");
         System.out.println("E : Exit The System");
 
-        do
-        {
-            System.out.println("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=");
+        do {
+            System.out.println("===========================================================*=");
             System.out.println("Enter Your Option");
-            System.out.println("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=");
+            System.out.println("===========================================================*=");
             option = scanner.next().charAt(0);
             System.out.println("\n");
 
             switch (option) {
 
                 case 'A':
-
-                    char ch;
                     System.out.println("-------------------------------------------------------");
                     System.out.println("The Grand Hotel  ");
                     System.out.println("Rose View Hotel  ");
                     System.out.println("Hotel Grand Surma  ");
                     System.out.println("Jatra flagship sylhet City Centre  ");
                     System.out.println("Hotel holy gate  ");
-
                     System.out.println("-------------------------------------------------------");
-                    ch = scanner.next().charAt(0);
                     System.out.println("\n");
-                    //break;
-                case'B':
-                    do {
-                        System.out.println("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=");
-                        System.out.println("Enter Your Option");
-                        System.out.println("=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=");
-                        option = scanner.next().charAt(0);
-                        System.out.println("\n");
+                    break;
 
-
-                        switch (option)
-                        {
-
-                            case'a':
-                                System.out.println("-------------------------------------------------------");
-                                System.out.println("Put a for Motorbus ,b for Taxie ,c for CNG,d for Pathao,e for Uber");
-                                System.out.println("Motorbus");
-                                System.out.println("-------------------------------------------------------");
-                                ch = scanner.next().charAt(0);
-                                System.out.println("\n");
-                                break;
-                            case'b':
-                                System.out.println("Taxie");
-                                System.out.println("-------------------------------------------------------");
-                                ch = scanner.next().charAt(0);
-                                System.out.println("\n");
-                                break;
-                            case'c':
-                                System.out.println("CNG");
-                                System.out.println("-------------------------------------------------------");
-                                ch = scanner.next().charAt(0);
-                                System.out.println("\n");
-                                break;
-                            case'd':
-                                System.out.println("Pathao");
-                                System.out.println("-------------------------------------------------------");
-                                ch = scanner.next().charAt(0);
-                                System.out.println("\n");
-                                break;
-                            case'e':
-                                System.out.println("Uber");
-                                System.out.println("-------------------------------------------------------");
-                                ch = scanner.next().charAt(0);
-                                System.out.println("\n");
-                                break;
-                            default:
-                                System.out.println("-------------------------------------------------------");
-                                System.out.println("Wrong choice");
-                                //break;
-
-                        }
-
-                    }
-                    while(option != 'E');
-                    System.out.println("Thank You for Using our Services.....!!");
-
+                case 'B':
+                    System.out.println("-------------------------------------------------------");
+                    System.out.println("Motorbus");
+                    System.out.println("Taxie");
+                    System.out.println("CNG");
+                    System.out.println("Pathao");
+                    System.out.println("Uber");
+                    System.out.println("-------------------------------------------------------");
 
 
                     System.out.println("\n");
