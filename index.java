@@ -9,7 +9,7 @@ public class Main {
         Scanner input =new Scanner (System.in);
         String user,pass,confirmPass;
 
-        System .out.print("Hi there!!For get help please registered first.");
+        System .out.print("Hi there!!For get help please registered first.Please register yourself");
 
         System .out.print("Enter your Username:");
         user=input.nextLine();
@@ -23,7 +23,7 @@ public class Main {
         System .out.print("Enter your confirm pass:");
         confirmPass=input.nextLine();
         if((pass.equals(confirmPass))){
-            System.out.println("Welcome Sir/Madam,");
+            System.out.println("Welcome Sir/Madam,Now you can enjoy our service!!!");
         }
         else{
             System.out.println("Something wrong!");
@@ -51,11 +51,11 @@ class TripAdvisor{
 
 
         System.out.println("\n");
-
-        System.out.println("A :Hotel");
+        System.out.println("Our services are:");
+        System.out.println("A :Hotels for stay");
         System.out.println("B :Transport");
-        System.out.println("C :Resturant");
-        System.out.println("D : visiting spot");
+        System.out.println("C :Restaurants");
+        System.out.println("D : Place to visit ");
         System.out.println("E : Exit The System");
 
         do {
